@@ -15,8 +15,8 @@ namespace Tests
         {
             Calculator calc = new Calculator();
 
-            int res = calc.Add(1, 2);
-            Assert.AreEqual(3, res);
+            int res = calc.Add(11,12);
+            Assert.AreEqual(23, res);
         }
 
         [TestMethod()]
